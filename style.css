@@ -350,17 +350,18 @@ figure.snip1157 {
 }
 .link li{
     padding: 9px 0;
-    color: #545454;
-}
-.link a:hover{
     color: white;
+
+}
+.link li:hover{
+    color:#f4b71c;
 }
 .iconss{
     display: flex;
     align-items: baseline;
 }
 .feat{
-    color: black;
+    color:white;
     font-size: 19px;
     font-weight: 600;
     text-transform: uppercase;
@@ -401,6 +402,14 @@ figure.snip1157 {
     }
     .lineCert{
         margin: auto;
+    }
+}
+@media (max-width : 412px){
+    .icons{
+        float: left;
+    }
+    .fb{
+        border: none;
     }
 }
 
