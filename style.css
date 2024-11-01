@@ -58,13 +58,11 @@ body {
   margin: 0;
   padding: 0;
 }
-
 .swiper {
   width: 100%;
   height: 100%;
   background: #000;
 }
-
 .swiper-slide {
   font-size: 18px;
   color: #fff;
@@ -72,7 +70,6 @@ body {
   box-sizing: border-box;
   padding: 40px 60px;
 }
-
 .parallax-bg {
   position: absolute;
   left: 0;
@@ -402,6 +399,7 @@ div.scroll-container {
   width: 100%;
   height: auto;
   max-width: 300px;
+  border: 5px solid black;
 }
 
 .overlayTeam {
@@ -423,7 +421,7 @@ div.scroll-container {
 }
 
 .textTeam {
-    padding-left: 10px;
+  padding-left: 10px;
   color: white;
   position: absolute;
   top: 50%;
